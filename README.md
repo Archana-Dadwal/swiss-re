@@ -11,4 +11,4 @@ This project helps to analyze the below after reading the csv input file(Id,firs
             mvn clean install
     3) While Running from IDE add "Absolute Path of (resources/large_employee_data.csv) File or any other csv file" to program arguments.
     4) while running from cmd
-           java -jar "Absolute Path of Generated Jar" "Absolute path of the Test csv File(resources/large_employee_data.csv)"
+           java -classpath "Absolute Path of Generated Jar" org.swiss.CompanyStructure "Absolute path of the Test csv File(resources/large_employee_data.csv)"
